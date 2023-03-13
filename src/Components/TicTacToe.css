@@ -1,0 +1,53 @@
+.game {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #000
+}
+
+.game .title {
+    margin: 2%;
+    position: absolute;
+    top: 30px;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Press Start 2P', cursive;
+    color: #f8cc09;
+}
+
+.game .turn {
+    color: red;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    color: azure;
+    font-size: 27px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+}
+
+table td {
+    border: 2px solid #f8cc09;
+    width: 100px;
+    height: 100px;
+    color: azure;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+.container button {
+    height: 70px;
+    width: 170px;
+    font-size: 14px;
+    border-radius: 30px;
+    font-family: 'Press Start 2P', cursive;
+}
